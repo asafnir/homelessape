@@ -37,7 +37,7 @@ export const Hero = () => {
         </div>
       </div>
       <div className="relative px-4 sm:px-0">
-        <div className="relative text-center mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
+        <div className="relative text-center mx-auto overflow-hidden shadow-2xl divide-y bg-white rounded sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
           <div className="inline-block p-8 text-center">
             <p className="font-bold tracking-wide text-gray-800  text-3xl">
               The utility token to support someone else
