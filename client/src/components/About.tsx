@@ -29,9 +29,9 @@ export const About = () => {
                       height="24"
                     />
                   </svg>
-                  <span className="relative">The</span>
+                  <span className="relative">End</span>
                 </span>{" "}
-                New utility
+                Homelessness
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
                 The reality is such that minting NFT help a lot of people to

@@ -5,9 +5,10 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../assets/ha-logo.png";
 
 const navigation = [
-  { name: "About", href: "#" },
-  { name: "Road Map", href: "#" },
-  { name: "Team", href: "#" },
+  { name: "About", href: "#about" },
+  { name: "Road Map", href: "#roadmap" },
+  { name: "Team", href: "#team" },
+  { name: "FAQ", href: "#faq" },
 ];
 
 export const Header = () => {
