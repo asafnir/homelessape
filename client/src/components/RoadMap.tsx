@@ -114,29 +114,29 @@ export const RoadMap = () => {
               </p>
             </div>
           </div>
-          {/* 4 */}
-          <div className="flex">
-            <div className="flex flex-col items-center mr-6">
-              <div className="w-px h-60 bg-gray-300" />
-              <div>
-                <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
-                  100%
-                </div>
+        </div>
+        {/* 5 */}
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-60 bg-gray-300" />
+            <div>
+              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
+                100%
               </div>
-              <div className="w-px h-full bg-gray-300" />
             </div>
-            <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
-              <div>
-                <p className="text-3xl font-semibold pb-4">
-                  The work to bring end to homelessness is just begin
-                </p>
-                <p className="text-3sm text-gray-700">
-                  Using the strangth of the communty to find, reserch and
-                  emplyment project around the globe to put homelessness to an
-                  end <br />
-                  How? <b>Together</b>
-                </p>
-              </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div>
+              <p className="text-3xl font-semibold pb-4">
+                The work to bring end to homelessness is just begin
+              </p>
+              <p className="text-3sm text-gray-700">
+                Using the strangth of the communty to find, reserch and
+                emplyment project around the globe to put homelessness to an end{" "}
+                <br />
+                How? <b>Together</b>
+              </p>
             </div>
           </div>
         </div>
