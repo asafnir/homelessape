@@ -1,46 +1,52 @@
+import ape1 from "../assets/a1.jpg";
+import ape2 from "../assets/a2.png";
+import ape3 from "../assets/a3.jpg";
+
+const teamList = [
+  {
+    id: 1,
+    img: ape1,
+    name: "Niros",
+    position: "Creative Mind",
+  },
+  {
+    id: 2,
+    img: ape2,
+    name: "Marta Clermont",
+    position: "Design Team Lead",
+  },
+  {
+    id: 3,
+    img: ape3,
+    name: "Alice Melbourne",
+    position: "Human Resources",
+  },
+];
+
 export const Team = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
-        <p className="text-3xl inline-block px-3 py-px mb-4 font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-          The Team
-        </p>
-      </div>
-      <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3 lg:max-w-screen-lg">
-        <div>
-          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-            <img
-              className="absolute object-cover w-full h-full rounded"
-              alt="team-1"
-            />
-          </div>
-          <div className="flex flex-col sm:text-center">
-            <p className="text-lg font-bold">Niros</p>
-            <p className="mb-5 text-xs text-gray-800">Creative Mind</p>
-          </div>
-        </div>
-        <div>
-          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-            <img
-              className="absolute object-cover w-full h-full rounded"
-              alt="team-2"
-            />
-          </div>
-          <div className="flex flex-col sm:text-center">
-            <p className="text-lg font-bold">Marta Clermont</p>
-            <p className="mb-5 text-xs text-gray-800">Design Team Lead</p>
-          </div>
-        </div>
-        <div>
-          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-            <img
-              className="absolute object-cover w-full h-full rounded"
-              alt="team-3"
-            />
-          </div>
-          <div className="flex flex-col sm:text-center">
-            <p className="text-lg font-bold">Alice Melbourne</p>
-            <p className="mb-5 text-xs text-gray-800">Human Resources</p>
+    <div id="team" className="bg-slate-900">
+      <div className="px-5 sm:px-12 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:py-20">
+        <div className="mb-10 text-center">
+          <h1 className="font-bold tracking-wide text-white text-3xl sm:text-4xl text-center">
+            THE TEAM
+          </h1>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
+            {teamList.map((team) => (
+              <div key={team.id} className="team-glass p-3">
+                <img
+                  src={team.img}
+                  alt="avatar ape"
+                  className="object-fill rounded-lg"
+                />
+                <h1 className="text-2xl font-semibold text-white mt-5">
+                  {team.name}
+                </h1>
+                <p className="font-light text-white text-sm my-3">
+                  {team.position}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

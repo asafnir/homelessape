@@ -1,6 +1,9 @@
 export const RoadMap = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      id="roadmap"
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       <div className="grid max-w-2xl mx-auto">
         <div className="inline-block mb-8 text-center">
           <p className="font-bold tracking-wide text-gray-800 text-3xl">
@@ -8,11 +11,11 @@ export const RoadMap = () => {
           </p>
         </div>
         {/* 0 */}
-        <div className="flex">
+        <div className="flex mt-10 sm:mt-0">
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-60 opacity-0" />
             <div>
-              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
+              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full bg-slate-500 text-white">
                 0%
               </div>
             </div>
@@ -32,7 +35,7 @@ export const RoadMap = () => {
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-60 bg-gray-300 " />
             <div>
-              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
+              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full bg-slate-500 text-white">
                 20%
               </div>
             </div>
@@ -55,7 +58,7 @@ export const RoadMap = () => {
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-60 bg-gray-300" />
             <div>
-              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
+              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full bg-slate-500 text-white">
                 40%
               </div>
             </div>
@@ -76,7 +79,7 @@ export const RoadMap = () => {
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-60 bg-gray-300" />
             <div>
-              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
+              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full bg-slate-500 text-white">
                 60%
               </div>
             </div>
@@ -98,7 +101,7 @@ export const RoadMap = () => {
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-60 bg-gray-300" />
             <div>
-              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
+              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full bg-slate-500 text-white">
                 80%
               </div>
             </div>
@@ -120,7 +123,7 @@ export const RoadMap = () => {
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-60 bg-gray-300" />
             <div>
-              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full">
+              <div className="flex items-center justify-center w-20 h-20 text-xl font-medium border rounded-full bg-slate-500 text-white">
                 100%
               </div>
             </div>

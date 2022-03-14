@@ -48,11 +48,14 @@ const Item = ({ title, children }: ItemProps) => {
 
 export const Faq = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      id="faq"
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div className="flex flex-col mb-16 sm:text-center">
           <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+            <h2 className="max-w-lg my-10 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
               <span className="relative inline-block">
                 <svg
                   viewBox="0 0 52 24"
@@ -87,21 +90,18 @@ export const Faq = () => {
           </div>
         </div>
         <div className="space-y-4">
-          <Item title="The quick, brown fox jumps over a lazy dog?">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          <Item title="How Can I Buy a Homeless Ape?">
+            After sales start, you can buy on mint page.
           </Item>
-          <Item title="The first mate and his Skipper too will do?">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          <Item title="What is the mint price?">
+            0.05 ETH for presale 0.07 ETH for public sale
           </Item>
-          <Item title="Is the Space Pope reptilian!?">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          <Item title="How many can I mint?">Max 3 per person.</Item>
+          <Item title="How many Homeless Ape are reserved?">
+            We reserved 100 Homeless Ape marketing events, giveaways
           </Item>
-          <Item title="How much money you got on you?">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          <Item title="What are the benefits of owning a Sheep?">
+            Homeless Ape NFTs ....
           </Item>
         </div>
       </div>
